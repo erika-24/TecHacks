@@ -8,7 +8,7 @@
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $recipient = "a7sarker@uwaterloo.ca";
+    $recipient = "[INSERT EMAIL]";
     $header = "From: $email \r\n";
     $formcontent="From: $name \n Phone: $phone \n\n Message: $message";
 
