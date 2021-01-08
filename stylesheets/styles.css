@@ -1,0 +1,264 @@
+/* Button Styles */
+@media only screen and (max-width: 768px) {
+  For mobile phones:
+  .center {
+    text-align: center;
+  }
+  .centerInput {
+    text-align: center;
+  }
+  textarea {
+    margin-left: 35%;
+  }
+  .myButton {
+    margin-right:40%;
+    margin-left: 36.5%;
+    padding: 1.5px;
+  }
+  /* recheck following 3:*/
+  .girlImage {
+    height: 28%;
+    width: 28%;
+    margin-bottom: 15px;
+  }
+  .submit {
+    margin:none;
+  }
+  .laptop {
+    margin-right: 50%;
+  }
+}
+
+.myButton {
+ box-shadow: -3px 4px 2px 1px #1564ad;
+ background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+ background-color:#79bbff;
+ background-color: white;
+ border-radius:12px;
+ border:1px solid #337bc4;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family: 'Saira Condensed', sans-serif;
+ font-size:25px;
+ font-weight:bold;
+ padding:13px 38px;
+ text-decoration:none;
+  margin-left: 5%;
+}
+.myButton:hover {
+ background:linear-gradient(to bottom, white 5%, #f0849f 100%);
+}
+.myButton:active {
+ position:relative;
+ top:1px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.center {
+  text-align: center;
+}
+.centerInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centerButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beigeBackground {
+  background-color: #e8e6e6;
+}
+.centerTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Intro Section Styles*/
+.intro{
+  padding: 6% 8% 1%;
+  overflow: auto;
+  text-align: center;
+}
+.girlImage {
+  height: 15%;
+  width: 15%;
+  margin-bottom: 15px;
+}
+.topTitle{
+  font-family: 'Orbitron', sans-serif;
+}
+.bottomTitle {
+  font-family: 'Orbitron', sans-serif;
+}
+.date
+{
+  padding-top: 2%;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+/*Description Section Styles*/
+.descrip{
+  padding: 4% 5% 8%;
+  align-items: center;
+  font-family: 'Lora', serif;
+}
+.fellowIntro{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  line-height: 3.9rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.fellow {
+  margin-top: 10%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 10%;
+}
+.laptop{
+  float: right;
+  margin-right: 14%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*Table Styles*/
+.tableSec{
+  padding-bottom: 4%;
+  font-family: 'Lora', serif;
+}
+.table{
+  padding: 2% 10% 10%;
+  color: white;
+}
+td {
+  text-align: center;
+  width: 200px;
+}
+.table td {
+  padding: 3rem;
+}
+
+/* Contact Form */
+.contact{
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-family: 'Lora', serif;
+}
+.contactTitle{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #332902;
+  vertical-align: baseline;
+  line-height: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+input {
+  margin-left: 35%;
+  margin-bottom: 1%;
+  padding: 0.5% 0.5%;
+}
+input:hover {
+  background-color: #e6e6ee;
+}
+textarea:hover {
+  background-color: #e6e6ee;
+}
+textarea {
+  padding: 0.5% 0.5%;
+  margin-left: 35%;
+}
+.submit {
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fe8b8e;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.submit:hover{
+  background: black;
+  letter-spacing: 8px;
+}
+#error_message {
+  margin-bottom: 20px;
+  margin-left: 35%;
+  width: 25%;
+  background: #fe8b8e;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.inputMargin {
+  margin-bottom: 0;
+  border: solid grey 1px;
+}
+
+/* Footer section */
+footer {
+  font-family: 'Lora', serif;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  background-color: #0c2f99;
+  color: #cccccc;
+}
+.signup {
+  color: #192a88;
+  margin-left: 41.5%;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight:bold;
+}
+.signup:hover {
+  text-decoration: none;
+  color: black;
+}
+.btn-primary {
+  background-color: #ed7cf3;
+  border: none;
+  color: black;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+.btn-large {
+  padding-top: 1%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #cccccc;
+}
+.fa:hover {
+  color: white;
+}
